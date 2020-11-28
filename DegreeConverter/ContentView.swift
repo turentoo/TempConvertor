@@ -44,9 +44,7 @@ struct KelvinConvertor : TempConvertor {
 
 
 func roundTemp (value: Double) -> Double {
-    print(round( 100 * value ) / 100)
     return round( 100 * value ) / 100
-    
 }
 
 
@@ -130,11 +128,7 @@ struct ContentView: View {
                     \(output) \(degreeScales[toUnit])
                     """)
                         .font(.title2)
-                        .multilineTextAlignment(.center)
-                    
-                    
-                    
-                    
+                        .multilineTextAlignment(.center) 
                 }
                 
                 
